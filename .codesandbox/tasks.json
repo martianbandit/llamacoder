@@ -11,8 +11,7 @@
   "tasks": {
     "postinstall": {
       "name": "postinstall",
-      "command": "npm run postinstall",
-      "runAtStart": false
+      "command": "npm run postinstall"
     },
     "dev": {
       "name": "dev",
@@ -21,18 +20,15 @@
     },
     "build": {
       "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
+      "command": "npm run build"
     },
     "start": {
       "name": "start",
-      "command": "npm run start",
-      "runAtStart": false
+      "command": "npm run start"
     },
     "lint": {
       "name": "lint",
-      "command": "npm run lint",
-      "runAtStart": false
+      "command": "npm run lint"
     }
   }
 }
